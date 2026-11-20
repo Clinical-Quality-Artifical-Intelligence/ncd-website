@@ -1,3 +1,6 @@
+@font-face { font-family: 'Montserrat'; font-weight: 600; font-display: swap; src: url('fonts/Montserrat-SemiBold.woff2') format('woff2'); }
+@font-face { font-family: 'Montserrat'; font-weight: 700; font-display: swap; src: url('fonts/Montserrat-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Montserrat'; font-weight: 800; font-display: swap; src: url('fonts/Montserrat-ExtraBold.woff2') format('woff2'); }
 :root {
   --navy: #011b32;
   --navy-2: #072a4a;
@@ -193,3 +196,16 @@ table.map tbody th { color: var(--navy); font-weight: 700; width: 22%; }
 .cov.p { background: #fff1c2; color: #6b4e00; }
 .cov.g { background: #f1e3e3; color: #7a1f1f; }
 .mapnote { font-weight: 700; margin-top: -12px; }
+
+/* cookie consent banner */
+.consent { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; background: var(--white); border-top: 4px solid var(--teal); box-shadow: 0 -6px 24px rgba(1,27,50,.18); padding: 16px 0; }
+.consent .wrap { display: flex; gap: 16px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.consent p { margin: 0; flex: 1 1 420px; font-size: .95rem; }
+.consent-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.consent .btn { padding: 12px 18px; font-size: .95rem; cursor: pointer; border: 0; }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--text-blue); text-decoration: underline; font: inherit; cursor: pointer; }
+footer .linkbtn { color: var(--teal); }
+table.cookies { border-collapse: collapse; width: 100%; margin: 12px 0 20px; font-size: .95rem; }
+table.cookies th, table.cookies td { border: 1px solid #d9e4ee; padding: 10px 12px; text-align: left; vertical-align: top; }
+table.cookies thead th { background: var(--mist); }
+@media (max-width: 600px) { .consent-actions { width: 100%; } .consent .btn { flex: 1 1 auto; } }
