@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nursingcitizendevelopment.com/sitemap.xml
