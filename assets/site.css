@@ -180,3 +180,16 @@ footer a { color: var(--teal); }
 
 .alt .feature { background: var(--white); }
 .alt .card { border-color: #d3e0eb; }
+
+.doc.wide { max-width: 1140px; }
+.tablewrap { overflow-x: auto; margin: 24px 0; border: 1px solid #d9e4ee; border-radius: var(--radius); }
+table.map { border-collapse: collapse; width: 100%; min-width: 820px; font-size: .95rem; }
+table.map caption { text-align: left; padding: 14px 16px; font: 700 1rem Montserrat, Arial, sans-serif; color: var(--navy); }
+table.map th, table.map td { padding: 12px 16px; border-top: 1px solid #d9e4ee; vertical-align: top; text-align: left; }
+table.map thead th { background: var(--navy); color: var(--white); font-family: Montserrat, Arial, sans-serif; border-top: 0; }
+table.map tbody th { color: var(--navy); font-weight: 700; width: 22%; }
+.cov { display: inline-block; padding: 3px 10px; border-radius: 999px; font: 700 .8rem Montserrat, Arial, sans-serif; white-space: nowrap; }
+.cov.s { background: #c8f7f1; color: #00594f; }
+.cov.p { background: #fff1c2; color: #6b4e00; }
+.cov.g { background: #f1e3e3; color: #7a1f1f; }
+.mapnote { font-weight: 700; margin-top: -12px; }
