@@ -34,6 +34,7 @@ img { max-width: 100%; height: auto; display: block; }
 .skip:focus { left: 16px; top: 16px; background: var(--white); padding: 8px 12px; z-index: 20; }
 section { padding: 88px 0; }
 section.alt { background: var(--mist); }
+.cards.ai .card { border-left: 5px solid var(--blue); }
 
 /* header */
 .top { background: var(--navy); position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--navy-tint); }
@@ -176,3 +177,6 @@ footer a { color: var(--teal); }
   .feature { padding: 24px; }
   .foot { grid-template-columns: 1fr; }
 }
+
+.alt .feature { background: var(--white); }
+.alt .card { border-color: #d3e0eb; }
