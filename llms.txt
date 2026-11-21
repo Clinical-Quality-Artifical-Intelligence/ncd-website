@@ -1,0 +1,21 @@
+# Nursing Citizen Development
+
+> Nursing Citizen Development CIC (company no. 17324367, England and Wales) is a nurse-led, not-for-profit community interest company. It helps nurses, nursing associates, students and support workers in the UK understand, use and build AI safely, using the NCD Nursing Prompt Cycle, which follows the nursing process (Assess, Plan, Implement, Evaluate). Everything it publishes is free and licensed under CC BY-NC-SA 4.0. Its resources are educational, not clinical guidance.
+
+## Main resources
+
+- [The Nursing Copilot Handbook](https://handbook.nursingcitizendevelopment.com/): free first edition (November 2026). 406 practical Microsoft 365 Copilot and Copilot Chat prompts across 53 chapters for every field of nursing, with a safe-use level on every prompt, mapped to the NMC Code. Includes a prompt index, CPD log and CPD certificate template.
+- [NCD AI Nursing Toolkit](https://practicedev.cloud/): free toolkit on AI through the nursing process, Copilot for nurses, AI scribes, remote care, data literacy, equity and AI, and interactive checks such as "Can I use this tool?".
+- [NHS AI capability framework mapping](https://nursingcitizendevelopment.com/capability-framework.html): how NCD resources map to the NHS AI and Digital Healthcare Technologies Capability Framework.
+
+## About
+
+- [Home page](https://nursingcitizendevelopment.com/): mission, the three pillars (Code, Conscience, Care), the Prompt Cycle, projects and team.
+- Team: Lincoln Gombedza (founder, Registered Learning Disability Nurse), Hector Musonza, Kumbi Kariwo, Kelly Thobekile Ncube.
+- Projects: the Open Nursing Core (an open FHIR implementation guide for the nursing process) and research prototypes. These are not medical devices.
+
+## Policies
+
+- [Privacy and cookies](https://nursingcitizendevelopment.com/privacy.html)
+- [Terms of use](https://nursingcitizendevelopment.com/terms.html)
+- Contact: info@nursingcitizendevelopment.com
