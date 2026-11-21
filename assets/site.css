@@ -80,7 +80,7 @@ section.alt { background: var(--mist); }
 /* hero */
 .hero { position: relative; background: radial-gradient(1100px 520px at 82% 24%, #0d4473 0%, #03223e 45%, var(--navy) 75%); color: var(--white); padding: 68px 0 108px; overflow: hidden; }
 .hero .wrap { position: relative; z-index: 2; display: grid; grid-template-columns: 1.12fr .88fr; gap: 44px; align-items: center; }
-.hero h1 { color: var(--white); }
+.hero h1 { color: var(--white); font-size: clamp(2rem, 4.3vw, 3.25rem); }
 .hero h1 span { background: linear-gradient(90deg, var(--teal), var(--blue)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero .eyebrow { color: var(--teal); }
 .hero .lead { font-size: 1.16rem; color: #d7e4ef; max-width: 34em; }
