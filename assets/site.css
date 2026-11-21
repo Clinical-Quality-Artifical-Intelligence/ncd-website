@@ -231,7 +231,10 @@ section.dark .small { color: var(--muted); margin-top: 28px; }
 .road p { font-size: .95rem; margin: 0; color: #cfe0ee; }
 
 /* team */
-.team { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.team { display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; }
+.team .person { flex: 0 1 calc((100% - 44px) / 3); }
+@media (max-width: 960px) { .team .person { flex-basis: calc((100% - 22px) / 2); } }
+@media (max-width: 720px) { .team .person { flex-basis: 100%; } }
 .person {
   text-align: left;
   background: var(--white);
