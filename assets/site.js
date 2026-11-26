@@ -97,4 +97,48 @@
       }
     });
   }
+
+  // Fullscreen autoplay launcher for "The Arrival" (delegates click gesture via allow="autoplay; fullscreen")
+  var filmTriggers = document.querySelectorAll('[data-open-film]');
+  var activeModal = null, lastTrigger = null;
+  function closeFilmModal() {
+    if (!activeModal) return;
+    activeModal.remove();
+    activeModal = null;
+    document.body.style.overflow = '';
+    if (lastTrigger && lastTrigger.focus) lastTrigger.focus();
+  }
+  function openFilmModal(trigger) {
+    if (activeModal) return;
+    lastTrigger = trigger;
+    var modal = document.createElement('div');
+    modal.className = 'film-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-label', 'The Arrival — Interactive Film');
+    modal.innerHTML =
+      '<div class="film-bar">' +
+        '<button type="button" data-close-film aria-label="Close presentation">\u2715 Close</button>' +
+        '<a href="https://future.nursingcitizendevelopment.com/" target="_blank" rel="noopener">Open in new tab \u2197</a>' +
+      '</div>' +
+      '<iframe src="https://future.nursingcitizendevelopment.com/?embed=1" allow="autoplay; fullscreen" allowfullscreen title="The Arrival — The Future of Nursing Citizen Development"></iframe>';
+    document.body.appendChild(modal);
+    document.body.style.overflow = 'hidden';
+    activeModal = modal;
+    var closeBtn = modal.querySelector('[data-close-film]');
+    if (closeBtn) closeBtn.addEventListener('click', closeFilmModal);
+  }
+  filmTriggers.forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || (e.button !== undefined && e.button !== 0)) return;
+      e.preventDefault();
+      openFilmModal(el);
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && activeModal) {
+      e.preventDefault();
+      closeFilmModal();
+    }
+  });
 })();

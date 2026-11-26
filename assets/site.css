@@ -73,6 +73,8 @@ section.alt { background: var(--mist); }
 .btn-primary:hover, .btn-primary:focus { background: #5cf0e0; box-shadow: 0 12px 26px rgba(1, 228, 205, 0.35); }
 .btn-ghost { color: var(--white); border-color: rgba(150, 172, 192, 0.7); }
 .btn-ghost:hover, .btn-ghost:focus { border-color: var(--teal); color: var(--teal); background: rgba(1, 228, 205, 0.08); }
+.btn-film { color: var(--teal-soft); border-color: var(--teal); background: rgba(1, 228, 205, 0.12); box-shadow: 0 6px 18px rgba(1, 228, 205, 0.18); }
+.btn-film:hover, .btn-film:focus { background: var(--teal); color: var(--navy); box-shadow: 0 12px 26px rgba(1, 228, 205, 0.35); }
 .btn-dark { background: var(--navy); color: var(--white); box-shadow: 0 4px 12px rgba(1, 27, 50, 0.16); }
 .btn-dark:hover, .btn-dark:focus { background: var(--navy-tint); box-shadow: 0 8px 18px rgba(1, 27, 50, 0.24); }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
@@ -416,4 +418,54 @@ table.cookies thead th { background: var(--mist); }
   .consent-actions { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   .consent .btn { padding: 10px 8px; font-size: .8rem; text-align: center; }
   body:has(.consent) footer { padding-bottom: 190px; }
+}
+
+/* Fullscreen interactive film modal (delegates autoplay + sound to future.nursingcitizendevelopment.com) */
+.film-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: #04060d;
+  animation: filmFadeIn .28s ease-out;
+}
+@keyframes filmFadeIn { from { opacity: 0; } to { opacity: 1; } }
+.film-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.film-bar {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 102;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: .85;
+  transition: opacity .35s;
+}
+.film-bar:hover, .film-bar:focus-within { opacity: 1; }
+.film-bar button, .film-bar a {
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 10px;
+  border: 1px solid #22305e;
+  background: rgba(6, 10, 24, 0.78);
+  backdrop-filter: blur(10px);
+  color: #eef3fa;
+  font: 700 .78rem/1 var(--font-display);
+  letter-spacing: .06em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: border-color .2s, color .2s, background .2s;
+}
+.film-bar button:hover, .film-bar a:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: rgba(12, 22, 48, 0.92);
 }
