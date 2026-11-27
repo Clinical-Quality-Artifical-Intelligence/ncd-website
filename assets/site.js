@@ -1,4 +1,14 @@
 (function () {
+  // Sticky header separation once scrolled
+  var topBar = document.querySelector('.top');
+  if (topBar) {
+    function syncHeader() {
+      topBar.classList.toggle('scrolled', window.scrollY > 12);
+    }
+    syncHeader();
+    window.addEventListener('scroll', syncHeader, { passive: true });
+  }
+
   // Mobile menu with state label and Escape key support
   var btn = document.querySelector('.menu'), nav = document.getElementById('nav');
   if (btn && nav) {
@@ -61,7 +71,7 @@
   // Interactive 3D perspective tilt on cards (desktop pointers only; respects reduced motion)
   var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (!reducedMotion) {
-    var TILT_SELECTOR = '.card, .person, .road li, .feature';
+    var TILT_SELECTOR = '.card, .person, .road li, .feature, .steps button';
     var activeCard = null;
 
     function resetCard(el) {
