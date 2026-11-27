@@ -1,21 +1,31 @@
 # Nursing Citizen Development
 
-> Nursing Citizen Development CIC (company no. 17324367, England and Wales) is a nurse-led, not-for-profit community interest company. It helps nurses, nursing associates, students and support workers in the UK understand, use and build AI safely, using the NCD Nursing Prompt Cycle, which follows the nursing process (Assess, Plan, Implement, Evaluate). Everything it publishes is free and licensed under CC BY-NC-SA 4.0. Its resources are educational, not clinical guidance.
+> Nursing Citizen Development CIC (company no. 17324367, England and Wales) is a nurse-led, not-for-profit community interest company. It helps nurses, midwives, nursing associates, students and support workers in the UK understand, use and build AI safely, using the NCD Nursing Prompt Cycle, which follows the nursing process (Assess, Plan, Implement, Evaluate). Everything it publishes is free and openly licensed under CC BY-NC-SA 4.0. Its resources are educational, not clinical guidance or medical devices.
 
 ## Main resources
 
-- [The Nursing Copilot Handbook](https://handbook.nursingcitizendevelopment.com/): free first edition (November 2026). 406 practical Microsoft 365 Copilot and Copilot Chat prompts across 53 chapters for every field of nursing, with a safe-use level on every prompt, mapped to the NMC Code. Includes a prompt index, CPD log and CPD certificate template.
-- [NCD AI Nursing Toolkit](https://practicedev.cloud/): free toolkit on AI through the nursing process, Copilot for nurses, AI scribes, remote care, data literacy, equity and AI, and interactive checks such as "Can I use this tool?".
+- [The Nursing Copilot Handbook](https://handbook.nursingcitizendevelopment.com/): free first edition (November 2026). 406 practical Microsoft 365 Copilot and Copilot Chat prompts across 53 chapters plus 50 quick prompts for every field of nursing, with a safe-use level on every prompt, mapped to the NMC Code. Free ZIP download includes the PDF handbook, searchable prompt spreadsheet, CPD log template for revalidation, and printable safe-use card, plus free updates for the new NMC Code.
+- [NCD AI Nursing Toolkit](https://practicedev.cloud/): free, living UK nursing AI toolkit continuously updated as NHS clinical safety guidance, the NMC Code, MHRA/NICE AI Airlock, EU AI Act, and everyday AI tools evolve. Includes the 30-second Red/Amber/Green "Can I use this tool?" safety check, 100 vetted free AI courses, 18 interactive nursing tools, and comparisons of Copilot, ChatGPT, Claude, Gemini, NotebookLM, and Perplexity.
 - [NHS AI capability framework mapping](https://nursingcitizendevelopment.com/capability-framework.html): how NCD resources map to the NHS AI and Digital Healthcare Technologies Capability Framework.
+- [Open-source projects](https://nursingcitizendevelopment.com/open-source.html): the Open Nursing Core (an open FHIR implementation guide for the nursing process) and the NHS Unified Nursing Validator research prototype.
 
-## About
+## About & community
 
-- [Home page](https://nursingcitizendevelopment.com/): mission, the three pillars (Code, Conscience, Care), the Prompt Cycle, projects and team.
-- Team: Lincoln Gombedza (founder, Registered Learning Disability Nurse), Hector Musonza, Kumbi Kariwo, Kelly Thobekile Ncube.
-- Projects: the Open Nursing Core (an open FHIR implementation guide for the nursing process) and research prototypes. These are not medical devices.
+- [Home page](https://nursingcitizendevelopment.com/): mission, three pillars (Code, Conscience, Care), NCD Nursing Prompt Cycle, open projects, and Founder & Supporters.
+- [About](https://nursingcitizendevelopment.com/about.html) | [Blog](https://nursingcitizendevelopment.com/blog.html) | [Roadmap](https://nursingcitizendevelopment.com/roadmap.html) | [Partner with us](https://nursingcitizendevelopment.com/partner.html)
+- Founder: Lincoln Gombedza (Registered Learning Disability Nurse, author of The Nursing Copilot Handbook, lead architect of the Open Nursing Core).
+- Supporters: Hector Musonza, Kumbi Kariwo (QN, FRCN), Kelly Thobekile Ncube (SFHEA), Winnie George, Professor Joanne Bosanquet MBE (CEO, Foundation of Nursing Studies), Rohit Sagoo QN, Aghogho (Founder, NurseAghoghoCares CIC), and Dr Niki Simbani PhD (Senior Lecturer in Mental Health Nursing, Keele University).
 
-## Policies
+## Official channels
 
-- [Privacy and cookies](https://nursingcitizendevelopment.com/privacy.html)
-- [Terms of use](https://nursingcitizendevelopment.com/terms.html)
+- LinkedIn Company Page: https://www.linkedin.com/company/nursing-citizen-development/
+- Facebook Page: https://www.facebook.com/nursingcitizendevelopment
+- Facebook Community Group: https://www.facebook.com/groups/1465648882208127
+- Instagram: https://www.instagram.com/nursingcitizendevelopment/
+- TikTok: https://www.tiktok.com/@nursecitizendeveloper
+- GitHub: https://github.com/Clinical-Quality-Artifical-Intelligence
+
+## Policies & contact
+
+- [Privacy](https://nursingcitizendevelopment.com/privacy.html) | [Cookies](https://nursingcitizendevelopment.com/cookies.html) | [Accessibility](https://nursingcitizendevelopment.com/accessibility.html) | [Terms of use](https://nursingcitizendevelopment.com/terms.html)
 - Contact: info@nursingcitizendevelopment.com
