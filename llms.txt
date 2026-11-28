@@ -9,6 +9,8 @@
 - [Claim Digital Badges](https://badge.nursingcitizendevelopment.com/): free verifiable digital badges for nurses and students completing NCD AI learning activities.
 - [Linktree Hub](https://linktr.ee/nursingcitizendevelopment): single link to all free NCD resources and social channels.
 - [Ambient voice technology (AVT) and AI scribes in nursing](https://nursingcitizendevelopment.com/ambient-voice-in-nursing.html): UK & NHS safe-use guide covering NMC Code accountability, DCB0129/DCB0160 clinical safety, UK GDPR/DPIA, informed consent, placement boundaries, and a 5-point note verification check.
+- [The NMC Code and AI in nursing](https://nursingcitizendevelopment.com/nmc-code-and-ai.html): mapping artificial intelligence, Copilot, ChatGPT, and NMC revalidation reflections to all four themes of the NMC Code.
+- [Microsoft 365 Copilot for NHS nurses](https://nursingcitizendevelopment.com/nhs-copilot-for-nurses.html): Copilot Chat vs full Microsoft 365 Copilot licences, the NCD Nursing Prompt Cycle, and safe starter prompts.
 - [NHS AI capability framework mapping](https://nursingcitizendevelopment.com/capability-framework.html): how NCD resources map to the NHS AI and Digital Healthcare Technologies Capability Framework.
 - [Open-source projects](https://nursingcitizendevelopment.com/open-source.html): the Open Nursing Core (an open FHIR implementation guide for the nursing process) and the NHS Unified Nursing Validator research prototype.
 
